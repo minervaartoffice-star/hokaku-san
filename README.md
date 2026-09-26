@@ -4,16 +4,14 @@
 
 ## 内容
 
-- `index.html` — 展示トップページ
+- `yomikaePR.html` — 展示トップページ
 - `style.css` — 展示のデザイン
-- `book/` — EPUBから取り出した刊行時の本文、画像、スタイル
-- `ai-yomikae-kitan-2025.epub` — 2025年版の原著EPUB
 
 展示解説は原著本文と分けて掲載しています。原著の本文は変更していません。
 
 ## ローカルで見る
 
-`index.html` をブラウザーで開いてください。
+`yomikaePR.html` をブラウザーで開いてください。
 
 ## GitHub Pagesで公開する
 
