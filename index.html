@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="『西八野良猫奇譚』。猫にエサをあげている方へ。地域の現場から、猫をめぐる行為と責任を考える本です。答えはないけど、考える材料はある。">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="西八野良猫奇譚｜ホカクさん">
+  <meta property="og:description" content="答えはないけど、考える材料はある。あなたが今いる場所から、お入りください。">
+  <meta property="og:url" content="https://minervaartoffice-star.github.io/hokaku-san/">
+  <title>西八野良猫奇譚｜ホカクさん</title>
+  <style>
+    :root { color-scheme: light; --ink:#182b34; --muted:#53656d; --sea:#176b86; --sea-dark:#104e65; --foam:#e7f2f3; --paper:#fbf8f1; --line:#d7e1df; --gold:#d7a84b; }
+    * { box-sizing:border-box; }
+    html { scroll-behavior:smooth; }
+    body { margin:0; color:var(--ink); background:var(--paper); font-family:"Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif; line-height:1.9; }
+    a { color:var(--sea-dark); text-underline-offset:.2em; }
+    a:hover { text-decoration-thickness:2px; }
+    a:focus-visible { outline:3px solid var(--gold); outline-offset:4px; }
+    .skip { position:absolute; left:-9999px; top:0; background:white; padding:.7rem; z-index:10; }
+    .skip:focus { left:.5rem; }
+    .topline { height:8px; background:linear-gradient(90deg,var(--sea) 0 68%,var(--gold) 68%); }
+    header { max-width:1120px; margin:auto; padding:1rem 1.5rem; display:flex; justify-content:space-between; align-items:center; gap:1rem; }
+    .brand { color:var(--ink); font-weight:800; text-decoration:none; letter-spacing:.08em; }
+    nav { display:flex; flex-wrap:wrap; gap:.4rem 1.2rem; font-size:.9rem; }
+    nav a { text-decoration:none; }
+    .hero { background:var(--sea); color:white; padding:clamp(3rem,8vw,7rem) 1.5rem 4.2rem; position:relative; overflow:hidden; }
+    .hero:after { content:""; position:absolute; width:25rem; height:25rem; right:-8rem; bottom:-16rem; border:1px solid #ffffff55; border-radius:50%; box-shadow:0 0 0 30px #ffffff0c,0 0 0 60px #ffffff0c; }
+    .hero-inner { max-width:900px; margin:auto; position:relative; z-index:1; }
+    .eyebrow { text-transform:uppercase; letter-spacing:.2em; font-size:.78rem; font-weight:700; color:#d5ecf0; }
+    h1 { font-size:clamp(2.3rem,7vw,5.1rem); line-height:1.22; letter-spacing:.05em; margin:.35rem 0 1.5rem; }
+    .hero h2 { max-width:800px; font-size:clamp(1.45rem,3.8vw,2.55rem); line-height:1.55; margin:0 0 1rem; }
+    .hero p { max-width:720px; font-size:1.04rem; color:#f2fbfc; }
+    .hero .lead { font-weight:700; color:white; font-size:1.12rem; }
+    .buttons { display:flex; flex-wrap:wrap; gap:.8rem; margin-top:1.8rem; }
+    .button { display:inline-block; padding:.75rem 1.15rem; border:1px solid white; border-radius:999px; color:white; text-decoration:none; font-weight:700; }
+    .button.primary { color:var(--sea-dark); background:white; }
+    main { max-width:1000px; margin:auto; padding:0 1.5rem; }
+    section { padding:4rem 0; border-bottom:1px solid var(--line); }
+    .section-label { color:var(--sea); font-weight:800; letter-spacing:.15em; font-size:.78rem; text-transform:uppercase; }
+    h2 { font-size:clamp(1.7rem,4vw,2.45rem); line-height:1.45; margin:.3rem 0 1rem; }
+    h3 { line-height:1.5; }
+    .intro { max-width:720px; font-size:1.08rem; }
+    .quote { border-left:4px solid var(--gold); margin:1.6rem 0; padding:.25rem 0 .25rem 1.2rem; font-size:1.2rem; font-weight:700; }
+    .essays { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:1rem; margin:1.6rem 0; }
+    .card { background:white; border:1px solid var(--line); border-radius:12px; padding:1.2rem; box-shadow:0 5px 18px #20353a0a; }
+    .card h3 { margin:0 0 .5rem; color:var(--sea-dark); font-size:1.15rem; }
+    .card p { margin:.4rem 0; color:#344850; font-size:.95rem; }
+    .link-row { display:flex; flex-wrap:wrap; gap:.7rem 1.2rem; margin-top:1.2rem; }
+    .book-links { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:.6rem 1.5rem; padding-left:1.2rem; }
+    .author { background:var(--foam); border-radius:14px; padding:1.4rem; max-width:760px; }
+    .small { color:var(--muted); font-size:.9rem; }
+    footer { background:#123f51; color:#e7f2f3; padding:2rem 1.5rem; text-align:center; font-size:.9rem; }
+    footer a { color:white; }
+    @media(max-width:720px) { header { align-items:flex-start; flex-direction:column; } .essays,.book-links { grid-template-columns:1fr; } section { padding:3rem 0; } }
+    @media(prefers-reduced-motion:reduce) { html { scroll-behavior:auto; } }
+  </style>
+</head>
+<body>
+  <a class="skip" href="#main">本文へ移動</a>
+  <div class="topline" aria-hidden="true"></div>
+  <header>
+    <a class="brand" href="index.html">西八野良猫奇譚</a>
+    <nav aria-label="ページ内案内">
+      <a href="chapters.html">全章紹介</a>
+      <a href="#read">本を読む</a>
+      <a href="#author">著者紹介</a>
+      <a href="https://sites.google.com/view/minervaartoffice/">Googleサイト</a>
+    </nav>
+  </header>
+  <div class="hero">
+    <div class="hero-inner">
+      <div class="eyebrow">The Unusual Tale of Stray Cats in Nishi-hachi</div>
+      <h1>西八野良猫奇譚</h1>
+      <p class="eyebrow">野良猫と仲良くなりたい方へ</p>
+      <h2>猫を守りたいなら、<br>その行為を憎む人を増やさないでください。</h2>
+      <p class="lead">猫がかわいそうだから、何とかしてあげたい。その気持ちは大切です。でも、エサをあげれば仲良くなれるとは限りません。猫が応じなければ、置いて立ち去ることになるでしょう。その食べ残しや、飼ってもいない猫のフンを片付ける人がいる。置いた側に悪気がなくても、その行為への怒りは深くなることがあります。</p>
+      <p>猫を守るつもりで、猫と地域で暮らす人との対立を生んでいないでしょうか。表面化する動物虐待は、実は人に向けられたものではないでしょうか。猫を守るために、猫を憎む人を増やさない。現場が突き付けるのは、その難しさでした。</p>
+      <p>捕獲と不妊去勢手術は、猫も人も守る手段です。耳カットされた手術済みの猫がいる地域には、猫に嫌われる役目を引き受け、彼らの要望を受け入れ、そして見送る寂しさを背負う人が、必ずいます。八王子市の助成制度を利用して、26頭の捕獲・手術をおこなった著者が、地域の現場で感じたことを綴りました。問いたいのは制度の不足ではなく、野良猫をめぐる負担や責任を地域でどう受け止めるかなのです。</p>
+      <div class="buttons">
+        <a class="button primary" href="chapters.html">全14章のご紹介</a>
+        <a class="button" href="https://minervaartoffice-star.github.io/hokaku-san/nekogo.html">猫語と猫マナーの全文</a>
+      </div>
+    </div>
+  </div>
+  <main id="main">
+    <section id="enter">
+      <div class="section-label">Start anywhere</div>
+      <h2>答えはないけど、考える材料はある。</h2>
+      <p class="intro">『西八野良猫奇譚』は、正解や即効の処方箋を渡す本ではありません。猫たちの顔ぶれからでも、気になる章からでも、あなたが今いる場所から、お入りください。</p>
+      <div class="link-row">
+        <a href="chapters.html">まえがきからあとがきまで、全章紹介を読む →</a>
+        <a href="https://minervaartoffice-star.github.io/hokaku-san/nekogo.html">第十二章「猫語と猫マナー」を読む →</a>
+      </div>
+    </section>
+
+    <section id="lord">
+      <div class="section-label">From Chapter Eight</div>
+      <h2>第八章「領主は私」から読む</h2>
+      <p>餌やりを通じて見えてくる猫たちの関係、人間同士の境界、そして減っていく猫たち。三つのエッセイを、全章紹介ページで読めます。</p>
+      <div class="essays">
+        <article class="card"><h3>タマ・インフレーション</h3><p>ボス猫タマの食べ物選びが、仲間の人気や分け合い方まで動かしていく。猫たちに振り回されながら、餌場や配り方を工夫する日々を描きます。</p><a href="chapters.html#tama-inflation">このエッセイの紹介へ →</a></article>
+        <article class="card"><h3>人間の管理</h3><p>問題にするのは猫好きという気持ちではなく、他人の場所や暮らしに踏み込み、行動の後の負担を引き受けないこと。人間同士にも境界やルールが要ると問いかけます。</p><a href="chapters.html#ningen-no-kanri">このエッセイの紹介へ →</a></article>
+        <article class="card"><h3>淋しいデフレーション</h3><p>猫の数や食欲が変わるなか、給餌を休んで関係の変化を確かめる著者。猫も人も思いどおりには管理できないこと、会える「今」の大切さを見つめます。</p><a href="chapters.html#sabishii-deflation">このエッセイの紹介へ →</a></article>
+      </div>
+      <p class="small">餌やりと責任をめぐる別の視点は、第十一章「二人の女傑」にあります。</p>
+    </section>
+
+    <section id="read">
+      <div class="section-label">Read &amp; find</div>
+      <h2>本を読む・探す</h2>
+      <h3>電子版（無料）</h3>
+      <ul class="book-links">
+        <li><a href="https://r.voyager.co.jp/epm/e1_363357_07072024000301/">ボイジャーで読む</a></li>
+        <li><a href="https://books.rakuten.co.jp/rk/d1e6c290496d3c04a543913ad89b9572/">楽天Koboで読む</a></li>
+        <li><a href="https://dl.ndl.go.jp/pid/14456705">国立国会図書館デジタルコレクションで読む</a></li>
+      </ul>
+      <h3>紙版・オンデマンド版</h3>
+      <ul class="book-links">
+        <li><a href="https://www.library.city.hachioji.tokyo.jp/">八王子市図書館で探す</a><br><span class="small">図書館サイトを開き、書名「西八野良猫奇譚」で検索してください。</span></li>
+        <li><a href="https://ndlsearch.ndl.go.jp/books/R100000002-I034182264">国立国会図書館の所蔵情報</a></li>
+        <li><a href="https://bookplt.com/viewer/YpihDxnEBS96KnWnRelHCQWUtksvgSseHopVnCRQ9eybLp2tUI4470">ブックパレットで購入</a><br><span class="small">非営利販売につき著者の利益はありません。全額が印刷製本料金です。</span></li>
+      </ul>
+    </section>
+
+    <section id="author">
+      <div class="section-label">About the author</div>
+      <h2>著者：ホカクさん</h2>
+      <div class="author">
+        <p>気づけば庭は野良猫に占領されていた。捕獲のプロではなく、小さな獣の威嚇に震え上がる臆病な一般人です。敷地を取り戻そうと問題を一つずつ調べ、読書やゲームをヒントに地道に攻略。祖父の代から西八在住で、保育園から高校まで市内で教育を受けました。ときどき「頭がピーマン！」と昭和のギャグを叫びながら、七転八倒・苦心惨憺・一生懸命、本を書きました。</p>
+      </div>
+    </section>
+
+    <section id="sister">
+      <div class="section-label">Related project</div>
+      <h2>姉妹本「AIよみかえ奇譚」</h2>
+      <p>『西八野良猫奇譚』の文章を利用した姉妹本の特設ページです。</p>
+      <a href="https://minervaartoffice-star.github.io/hokaku-san/yomikaePR.html">AIよみかえ奇譚の特設ページを見る →</a>
+    </section>
+  </main>
+  <footer>
+    <p>あなたが今いる場所から、お入りください。</p>
+    <p><a href="https://sites.google.com/view/minervaartoffice/">Googleサイトの入口</a>　｜　<a href="chapters.html">全章紹介</a></p>
+    <p>© Minerva Art Office</p>
+  </footer>
+</body>
+</html>
